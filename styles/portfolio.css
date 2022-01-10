@@ -23,6 +23,9 @@ h2 {
     font-size: 64px;
 }
 
+h4 {
+    font-size: 48px;
+}
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
@@ -109,6 +112,41 @@ p {
     color: var(--branding-color) !important;
 }
 
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
     h1 {
         font-size: 44px;
@@ -117,6 +155,10 @@ p {
 
     h2 {
         font-size: 44px;
+    }
+
+    h4 {
+        font-size: 26px;
     }
 
     .hero {
@@ -131,5 +173,9 @@ p {
     .project-description {
         padding: 0;
         text-align: center;
+    }
+
+    footer .contact-box {
+        padding: 30px;
     }
 }
